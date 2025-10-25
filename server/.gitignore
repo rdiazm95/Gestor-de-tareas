@@ -1,0 +1,46 @@
+# Dependencias de Node.js
+node_modules/
+
+# Archivos de entorno (credenciales, JWT secrets, Cloudinary keys)
+.env
+.env.local
+.env.production
+.env.development
+
+# Logs y reports
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+
+# Archivos de build o transpile
+dist/
+build/
+coverage/
+.cache/
+
+# Archivos de ejecución temporales
+tmp/
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Datos de base temporal
+*.sqlite
+*.sqlite3
+*.db
+
+# OS y editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Copias de seguridad
+*.bak
+*.old
+*.orig

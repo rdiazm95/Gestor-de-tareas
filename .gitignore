@@ -1,0 +1,83 @@
+# ---------------------------------------
+# 🔹 GENERAL
+# ---------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# Evitar builds
+dist/
+build/
+out/
+.cache/
+coverage/
+temp/
+tmp/
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
+
+# IDEs y editores
+.idea/
+.vscode/
+*.swp
+
+# Copias de seguridad
+*.bak
+*.old
+*.orig
+
+# ---------------------------------------
+# 🔹 ENVIRONMENT VARIABLES
+# ---------------------------------------
+.env
+.env.local
+.env.production
+.env.development
+.env.*.local
+*.env
+
+# ---------------------------------------
+# 🔹 FRONTEND (React / Next / Vite)
+# ---------------------------------------
+client/node_modules/
+client/.env
+client/.DS_Store
+client/.cache
+client/build
+client/dist
+client/.next
+client/.nuxt
+client/public/static
+
+# ---------------------------------------
+# 🔹 BACKEND (Node.js / Express)
+# ---------------------------------------
+server/node_modules/
+server/.env
+server/.DS_Store
+server/logs/
+server/tmp/
+server/pids/
+server/*.log
+server/dist/
+server/build/
+
+# ---------------------------------------
+# 🔹 DATABASES / STORAGE
+# ---------------------------------------
+*.sqlite3
+*.db
+*.sqlite
+*.log
+uploads/
+uploads_tmp/
+
+# ---------------------------------------
+# 🔹 CLOUDINARY / PUBLIC DATA
+# ---------------------------------------
+cloudinary_cache/

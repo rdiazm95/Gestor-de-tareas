@@ -1,0 +1,42 @@
+# Dependencias de Node.js
+node_modules/
+
+# Archivos de build
+/build
+/dist
+/.parcel-cache
+/.next
+/.nuxt
+/.vite
+/.cache
+
+# Archivos de configuración locales
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs y reportes
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+eslintcache
+
+# Archivos de prueba
+coverage/
+
+# Copias o bundle analizados
+*.tgz
+*.zip
+
+# Archivos propios de React
+/public/static
+public/*.map
+*.map
