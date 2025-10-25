@@ -5,10 +5,9 @@ Gestor de proyectos colaborativo con tiempo real, adjuntos en Cloudinary y regis
 
 ## 📸 Vista Previa del Proyecto
 
-_Añade aquí tus gifs o capturas mostrando el funcionamiento de tareas, comentarios y carga de archivos._
 
-⬇️  
-![Demo GIF Pendiente](ruta/a/tu/demo.gif)
+  
+![Demo GIF](https://i.imgur.com/L24MB3b.gif)
 
 ---
 
@@ -76,7 +75,7 @@ Crea un archivo `.env` en la raíz de **server/** con esta configuración:
 
 - PORT=5000
 - MONGO_URI=mongodb://localhost:xxx/prueba (ruta de ejemplo)
-- JWT_SECRET=clave-ultra-secreta
+- JWT_SECRET=clave inventada lo mas dificil posible
 - CLOUDINARY_NAME=tu_nombre
 - CLOUDINARY_API_KEY=tu_api_key
 - CLOUDINARY_API_SECRET=tu_api_secret
@@ -184,16 +183,19 @@ Por tanto, asegúrate de tener ambos corriendo simultáneamente.
 
 ## 🎬 Capturas
 
-_Añade aquí tus GIFs o capturas finales una vez subido a GitHub:_
+
 
 1. Vista general del tablero  
 2. Subida y eliminación de archivos Cloudinary  
 3. Colaboración entre usuarios en tiempo real  
 
-⬇️  
-![Dashboard Demo](ruta/a/dashboard.gif)
-![Cloudinary Upload Demo](ruta/a/subida.gif)
-![Realtime Update Demo](ruta/a/realtime.gif)
+ 
+
+![Cloudinary Upload Demo](https://i.imgur.com/XcLqV4g.gif)
+
+
+
+![Realtime Update Demo](https://i.imgur.com/qSQdCK1.gif)
 
 ---
 
