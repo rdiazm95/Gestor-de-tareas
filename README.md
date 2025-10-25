@@ -1,5 +1,5 @@
 # 🧠 Gestor de Tareas Inteligente  
-Gestor de proyectos colaborativo con tiempo real, adjuntos en Cloudinary y registro de actividad.
+Aplicación full stack desarrollada con React, Node.js y MongoDB que permite gestionar proyectos colaborativos, asignar tareas, compartir archivos mediante Cloudinary y realizar seguimiento en tiempo real con Socket.io y registro completo de acciones.
 
 ---
 
